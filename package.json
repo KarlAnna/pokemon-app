@@ -2,10 +2,10 @@
   "name": "vue-pokemon-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://KarlAnna/vue-pokemon-app/",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.8.3",
